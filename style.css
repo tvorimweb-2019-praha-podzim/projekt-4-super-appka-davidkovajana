@@ -15,12 +15,14 @@ html { box-sizing: border-box; }
 
 body {
     padding: 0;
-    margin: 0;
+    margin-left:auto;
+    margin-right: auto;
     background-color: #e5e5e5;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    padding-bottom: 60px;
 }
 
 .obal {
@@ -28,6 +30,165 @@ body {
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    position: relative;
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+
+.menu {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(34, 34, 34);
+    padding: 0;
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+a:hover {
+    font-weight: 600;
+}
+
+
+
+.hlavicka {
+    
+    padding: 0;
+
+    height: 450px;
+}
+
+.ruka {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 6px;
+    
+}
+
+.nadpis {
+    font-size: 80px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+
+.popis {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.tlacitkostahnout {
+    background-color: #6433b8;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.tlacitkoinfo {
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-left: 15px;
+}
+
+a.tlacitkostahnout,.tlacitkoinfo {
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: block;
+}
+
+a.tlacitkostahnout:hover {
+    font-weight: 600;;
+}
+
+a.tlacitkoinfo:hover {
+    font-weight: 600;
+}
+
+.akce {
+    position: absolute;
+    left: 40px;
+    top: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pozadi {
+    position: relative;
+}   
+    
+.duha {
+    width: 960px;
+    height: 420px;
+}
+
+.obsah {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    text-align: center;
+}
+
+.obrazekchat {
+    height: 80px;
+    width: 80px;
+}
+
+.obrazekletadlo {
+    height: 80px;
+    width: 80px;
+}
+
+.obrazekmapa {
+    height: 80px;
+    width: 80px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+h2 {
+    color: #522896;
+}
+
+.letadlo,.mapa,.chat {
+    padding: 30px;
+}
+
+.zapati {
+    background-color: #522896;
+    font-size: 8px;
+    color: white;
+    padding: 5px;
+    
+}
+
+.zapatitext {
+    color: white;
+    font-size: 12px;
+}
+
